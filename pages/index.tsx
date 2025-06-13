@@ -3,7 +3,7 @@ import HomeScreen from '@/features/home/screen'
 import Head from 'next/head';
 
 interface Props {
-  id: string;
+
 }
 
 const Home: React.FC<Props> = (props) => {

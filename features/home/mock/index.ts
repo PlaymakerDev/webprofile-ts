@@ -40,13 +40,13 @@ export const SOCIAL_LINKS = [
     alt: 'Discord profile',
   },
   {
-    name: 'LinkedIn', 
+    name: 'LinkedIn',
     icon: '/images/linkedin.svg',
     url: 'https://www.linkedin.com/in/tanus-witpattanakul-8a33791ba/', // Add your actual LinkedIn link
     alt: 'LinkedIn profile',
   },
   {
-    name: 'GitHub', 
+    name: 'GitHub',
     icon: '/images/github-icon.svg',
     url: 'https://github.com/PlaymakerDev', // Add your actual LinkedIn link
     alt: 'GitHub profile',
@@ -70,4 +70,11 @@ export const FIGURE_DATA: FigureData[] = [
     title: "I'm familiar with",
     textList: FAMILIAR_WITH
   }
+]
+
+export const MY_DESCRIPTION: string[] = [
+  'Hi, I am 3 years experience Frontend Developer in technology-related industry.',
+  'I love doing research and development on what I interested; with my expertise in field-of-study I enjoyed develop system and application with styles.',
+  'Also, I am seeking to expand my knowledge to have my reach on varieties of possibilities.',
+  'Feel free to contact, I am friendly and love talking to everyone. :)'
 ]

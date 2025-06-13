@@ -14,7 +14,10 @@ export const SKILL_LIST = [
 export const FAMILIAR_WITH = [
   'Frontend Development',
   'Backend Development',
-  'Game Development'
+  'Game Development',
+  'Game Design',
+  'UI/UX Design',
+  'System Analysis'
 ]
 
 export const LOVE_PLAYING = [

@@ -25,6 +25,7 @@ const FigureCard: React.FC<Props> = (props) => {
               className="text-2xl lg:text-4xl font-bold uppercase text-center px-4"
               textList={data.textList}
               fadeTransition={3000}
+              showListLength
             />
           </div>
         </div>

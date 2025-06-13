@@ -65,7 +65,7 @@ const TitleText: React.FC<Props> = (props) => {
       </section>
 
       <section className="mt-3 text-center lg:text-start">
-        <h2 className="uppercase text-sm font-medium text-gray-600">
+        <h2 className="uppercase fs-12 font-medium text-gray-600">
           Reach me on
         </h2>
         <div className="flex items-center justify-center lg:justify-start gap-3 mt-3">

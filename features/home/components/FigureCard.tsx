@@ -55,7 +55,7 @@ const FigureCard: React.FC<Props> = (props) => {
           className={`object-cover ${data.objectPosition} brightness-30 group-hover:brightness-20 transition-all duration-300`}
           alt={data.alt}
           priority
-          sizes="(max-width: 1024px) 100vw, 30rem"
+          // sizes="(max-width: 1024px) 100vw, 30rem"
         />
         <div
           className="absolute inset-0 flex flex-col justify-center items-center text-white z-10 transition-all duration-300"

@@ -9,7 +9,7 @@ const HomeScreen: React.FC<Props> = (props) => {
   return (
     <main className="w-screen h-screen">
       <div className="lg:px-40 h-full flex flex-col lg:flex-row items-center">
-        <section className="flex flex-col gap-3 h-full justify-center items-center lg:h-auto lg:justify-start lg:items-start w-full z-10 relative">
+        <section className="flex flex-col gap-3 h-full justify-center items-center lg:h-auto lg:justify-start lg:items-start w-full z-10 relative m-5 lg:m-0">
           <TitleIcon />
           <TitleText />
         </section>

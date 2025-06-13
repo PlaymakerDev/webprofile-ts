@@ -29,7 +29,7 @@ const RandomText: React.FC<Props> = (props) => {
       if (!showListLength) return
 
       return (
-        <p className='text-center'>{`(${currentIndex + 1}/${textList.length})`}</p>
+        <p className='font-extralight opacity-70 text-center'>{`(${currentIndex + 1}/${textList.length})`}</p>
       )
     }, [showListLength, textList, currentIndex])
 

@@ -29,7 +29,7 @@ const TitleIcon: React.FC<Props> = (props) => {
       <div className='w-full max-w-[90%] lg:w-[30rem] border border-white text-center lg:text-justify rounded-md p-2'>
         <RandomText
           textList={MY_DESCRIPTION}
-          fadeTransition={3000}
+          fadeTransition={5000}
         />
       </div>
     )

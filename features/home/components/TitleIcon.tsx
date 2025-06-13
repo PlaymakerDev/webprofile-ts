@@ -30,7 +30,6 @@ const TitleIcon: React.FC<Props> = (props) => {
         <RandomText
           textList={MY_DESCRIPTION}
           fadeTransition={5000}
-          showListLength
         />
       </div>
     )

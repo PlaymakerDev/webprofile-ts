@@ -45,6 +45,7 @@ const TitleText: React.FC<Props> = (props) => {
           height={30}
           alt={social.alt}
           className="object-contain"
+          draggable={false}
         />
       </a>
     ))

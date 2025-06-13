@@ -52,6 +52,7 @@ const TitleIcon: React.FC<Props> = (props) => {
           fill
           priority
           sizes="(max-width: 1024px) 100vw, 30rem"
+          draggable={false}
         />
       </figure>
       {renderRandomText}

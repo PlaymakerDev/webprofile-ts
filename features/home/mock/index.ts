@@ -5,10 +5,16 @@ import CastoriceImg from '@/public/images/castorice-img.jpg'
 import { FigureData } from '@/utils/types'
 
 export const SKILL_LIST = [
+  'HTML',
+  'CSS',
+  'Responsive Design',
   'JavaScript',
   'TypeScript',
   'C#',
   'Luau',
+  'Version Control',
+  'Prototyping Tool',
+  'Management Tool',
 ]
 
 export const FAMILIAR_WITH = [

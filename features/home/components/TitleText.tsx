@@ -4,6 +4,8 @@ import { SOCIAL_LINKS } from '../mock'
 // DYNAMIC IMPOER
 import dynamic from 'next/dynamic'
 const TypeWriter = dynamic(() => import('typewriter-effect'), { ssr: false })
+// MOTION
+import * as motion from 'motion/react-client'
 
 interface Props { }
 
@@ -27,7 +29,7 @@ const TitleText: React.FC<Props> = (props) => {
 
   const renderSocialLink = useMemo(() => {
     return SOCIAL_LINKS.map((social) => (
-      <a
+      <motion.a
         key={social.name}
         href={social.url}
         target="_blank"
@@ -38,6 +40,8 @@ const TitleText: React.FC<Props> = (props) => {
           if (social.name !== 'Discord') return;
           copyUrlAndAlert(event)
         }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
       >
         <Image
           src={social.icon}
@@ -47,7 +51,7 @@ const TitleText: React.FC<Props> = (props) => {
           className="object-contain"
           draggable={false}
         />
-      </a>
+      </motion.a>
     ))
   }, [copyUrlAndAlert])
 

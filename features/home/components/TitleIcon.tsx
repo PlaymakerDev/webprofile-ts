@@ -70,9 +70,11 @@ const TitleIcon: React.FC<Props> = (props) => {
   return (
     <div className='flex flex-col lg:flex-row items-center gap-3'>
       <div className='relative'>
-        <figure
+        <motion.figure
           className='bg-gray-700 rounded-full overflow-hidden w-24 h-24 hover:cursor-pointer relative'
           onClick={() => onClickTrigger()}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
         >
           <Image
             src={'/images/herta-img4.jpg'}
@@ -83,7 +85,7 @@ const TitleIcon: React.FC<Props> = (props) => {
             sizes="(max-width: 1024px) 100vw, 30rem"
             draggable={false}
           />
-        </figure>
+        </motion.figure>
         {renderClickMe}
       </div>
       <AnimatePresence>
